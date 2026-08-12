@@ -514,7 +514,8 @@ public:
 	void PrimaryAttack( void );
 	int Swing( int fFirst );
 	BOOL Deploy( void );
-	void Holster( int skiplocal = 0 );
+	void Holster(int skiplocal = 0);
+	void WeaponIdle(void);
 	int m_iSwing;
 	TraceResult m_trHit;
 
